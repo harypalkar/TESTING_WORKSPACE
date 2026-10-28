@@ -2,9 +2,11 @@
 
 A self-contained, responsive demonstration of an NGO Management & Transparency Platform for Indian NGOs, charitable trusts, foundations, and social-welfare organizations.
 
-## Live demo
+## Deployment
 
-https://ngo-connect-live-demo-ignite-x21.vercel.app
+This repository contains the complete browser-based demo and is ready for static hosting. Import it into Vercel, Netlify, Cloudflare Pages, or enable GitHub Pages from the repository root.
+
+The earlier Bharat-owned Vercel URL is intentionally not listed here because this repository belongs to `harypalkar`.
 
 ## Demo accounts
 
@@ -58,3 +60,7 @@ Mock payments do not transfer money. No raw card details, UPI PINs, bank passwor
 ## Production implementation boundary
 
 A production deployment still requires the server-side Java 21 / Spring Boot 3.5 application, PostgreSQL persistence, tenant-scoped authorization, secure object storage, Google OpenID Connect, Razorpay webhook verification, email delivery, database migrations, backups, and automated backend/frontend test suites. The current package is intended for client demonstrations and workflow validation.
+
+## Source integrity
+
+`SOURCE_SHA256.txt` records the SHA-256 digest of the verified original single-file demo before it was packaged into browser-loadable payload chunks for GitHub.
